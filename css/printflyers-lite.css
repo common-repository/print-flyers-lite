@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+/*** Plugin: Print Flyers
+ * File: printflyers-lite.css
+ * Function: stylesheet
+ * (c) 2018 Togethernet Ltd. All rights reserved. Unauthorised distribution prohibited.
+ * 
+ * ***/
+
+:root {
+  --std-border-radius: 0px;
+  --std-border-color: #ccc;
+  --table-padding: 0.5em;
+}
+
+
+	p {
+		margin:0 0 12px 0;
+		/*** the printer font and font size is set from the settings page ***/
+	}
+
+
+	#container {
+	}
+
+    h1 {
+        font-size:1.3em;
+		font-weight: 700;
+		margin-bottom: 8px;
+    }
+    h2 {
+        font-size:1.0em;
+		font-weight: 700;
+		margin-top: 5px;
+		margin-bottom: 3px;
+    }
+    h3 {
+        font-size:1.0em;
+		font-weight: 700;
+		margin-top: 5px;
+		margin-bottom: 3px;
+	}
+    h4 {
+        font-size:0.9em;
+		font-weight: 400;
+		margin-top: 4px;
+		margin-bottom: 3px;
+	}
+    h5 {
+        font-size:0.8em;
+		font-weight: 400;
+		margin-top: 4px;
+		margin-bottom: 3px;
+	}
+    h6 {
+        font-size:0.7em;
+		font-weight: 400;
+		margin-top: 3px;
+		margin-bottom: 2px;
+	}
+
+	
+	#printflyers-main-image {
+		position: relative;
+		width: auto; /* optional */
+		height: auto; /* optional */
+		background: #fff;
+	}
+
+
+	/*** add styling for the image gallery section ***/
+	#thumbnails { 
+		clear:both;
+		overflow:hidden;
+	}
+
+
+	#thumbnails img {
+		vertical-align: top;
+		margin-right: 4px; 	/*** add a little padding around the gallery images ***/
+		margin-bottom: 4px;
+	}
+	
+	
+	#printflyers-title {
+
+	}
+
+
+	#printflyers-price {
+		font-size:14px;
+	}
+
+
+	#printflyers-sku {
+		font-size:9px !important;
+		padding-bottom: 10px !important;
+	}
+
+
+	#printflyers-short-description {
+
+	}
+
+
+	#printflyers-description {
+
+	}
+
+
+	.showborder { /*** add featured image border styling here ***/
+		-webkit-border-radius: var(--std-border-radius);
+		-moz-border-radius: var(--std-border-radius);
+		border-radius: var(--std-border-radius);
+		border: 1px solid var(--std-border-color);
+	}
+
+	.galleryborder { /*** add gallery image border styling here ***/
+		-webkit-border-radius: var(--std-border-radius);
+		-moz-border-radius: var(--std-border-radius);
+		border-radius: var(--std-border-radius);
+		border: 1px solid var(--std-border-color);
+	}
+
+    .shop_attributes { /*** add attributes styling here ***/
+        margin-bottom: 1em;
+        margin-top: 1em;
+        width: 100%;
+        font-size: 0.8em;
+}
+
+	table, td, th { /*** add table styling here ***/
+    	border: 1px solid var(--std-border-color);
+		-webkit-border-radius: var(--std-border-radius);
+		-moz-border-radius: var(--std-border-radius);
+		border-radius: var(--std-border-radius);
+	}
+
+	td, th {
+        padding-top: var(--table-padding);
+        padding-bottom: var(--table-padding);
+		vertical-align: top;
+		border-top: 0px;
+		border-left: 0px;
+	}
+
+	td {
+		padding-left: var(--table-padding);
+	}
+
+
+@media screen
+{
+#container {
+/*** Controls whether the on-screen print window is blank or shows a preview of the print-out. 	    		***/
+/*** To blank the window, uncomment the line below (display:none !important;) by removing the slashes and '*' at the start and end.	***/
+
+/*		display:none !important; */
+
+    width: 647px; /* constrain width to simulate fixed width of sheet of paper */
+    margin-top:30px;
+    margin-left:30px;
+	}
+
+}

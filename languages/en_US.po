@@ -1,0 +1,294 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Print Flyers Lite\n"
+"POT-Creation-Date: 2018-08-01 13:09+0100\n"
+"PO-Revision-Date: 2018-08-01 13:10+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: print-flyers-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: html-print.php:191 html-print.php:195
+msgid "SKU:"
+msgstr "SKU:"
+
+#: html-print.php:218
+msgid "Description"
+msgstr "Description"
+
+#: html-print.php:241
+msgid "Additional information"
+msgstr "Additional information"
+
+#: html-print.php:270
+msgid "Reviews"
+msgstr "Reviews"
+
+#. translators: 1: average 2: review count
+#: html-print.php:280
+#, php-format
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] "Rated %1$s out of 5 based on %2$s customer rating"
+msgstr[1] "Rated %1$s out of 5 based on %2$s customer ratings"
+
+#: html-print.php:291
+msgid "There are no reviews yet."
+msgstr "There are no reviews yet."
+
+#: inc/gallery-images.php:33
+msgid "Images"
+msgstr "Images"
+
+#. Plugin Name of the plugin/theme
+#: print-flyers-lite.php:120
+msgid "Print Flyers Lite"
+msgstr "Print Flyers Lite"
+
+#: print-flyers-lite.php:157 print-flyers-lite.php:257
+msgid "Print Flyers Lite Settings"
+msgstr "Print Flyers Lite Settings"
+
+#: print-flyers-lite.php:161
+msgid "Upgrade to Print Flyers"
+msgstr "Upgrade to Print Flyers"
+
+#: print-flyers-lite.php:163
+msgid "Settings"
+msgstr "Settings"
+
+#: print-flyers-lite.php:189
+msgid "Print Flyers Settings"
+msgstr "Print Flyers Settings"
+
+#: print-flyers-lite.php:190
+msgid ""
+"Settings are located under the Print Flyers Lite tab in your WooCommerce "
+"Settings."
+msgstr ""
+"Settings are located under the Print Flyers Lite tab in your WooCommerce "
+"Settings."
+
+#: print-flyers-lite.php:205
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: print-flyers-lite.php:265
+msgid "Do more with Print Flyers"
+msgstr "Do more with Print Flyers"
+
+#: print-flyers-lite.php:267
+msgid ""
+"For documentation and how to upgrade to the pro version, visit <a href="
+"\"https://print-flyers.com\">print-flyers.com</a>"
+msgstr ""
+"For documentation and how to upgrade to the pro version, visit <a href="
+"\"https://print-flyers.com\">print-flyers.com</a>"
+
+#: print-flyers-lite.php:280
+msgid "Print button"
+msgstr "Print button"
+
+#: print-flyers-lite.php:283
+msgid "Label for the button"
+msgstr "Label for the button"
+
+#: print-flyers-lite.php:283
+msgid "Leave blank for no label (use icon)"
+msgstr "Leave blank for no label (use icon)"
+
+#: print-flyers-lite.php:285 print-flyers-lite.php:364
+msgid "Left margin"
+msgstr "Left margin"
+
+#: print-flyers-lite.php:285 print-flyers-lite.php:286
+#: print-flyers-lite.php:287 print-flyers-lite.php:288
+msgid "Example: 5px"
+msgstr "Example: 5px"
+
+#: print-flyers-lite.php:286 print-flyers-lite.php:365
+msgid "Right margin"
+msgstr "Right margin"
+
+#: print-flyers-lite.php:287 print-flyers-lite.php:366
+msgid "Top margin"
+msgstr "Top margin"
+
+#: print-flyers-lite.php:288 print-flyers-lite.php:367
+msgid "Bottom margin"
+msgstr "Bottom margin"
+
+#: print-flyers-lite.php:290
+msgid "Printer icon"
+msgstr "Printer icon"
+
+#: print-flyers-lite.php:290
+msgid "Upload your own icon. A suitable size is about 20px x 20px"
+msgstr "Upload your own icon. A suitable size is about 20px x 20px"
+
+#: print-flyers-lite.php:294
+msgid "Current selection: "
+msgstr "Current selection: "
+
+#: print-flyers-lite.php:302
+msgid "General display options"
+msgstr "General display options"
+
+#: print-flyers-lite.php:306
+msgid "Show short description?"
+msgstr "Show short description?"
+
+#: print-flyers-lite.php:306 print-flyers-lite.php:311
+#: print-flyers-lite.php:316 print-flyers-lite.php:321
+#: print-flyers-lite.php:326 print-flyers-lite.php:342
+#: print-flyers-lite.php:368 print-flyers-lite.php:384
+#: print-flyers-lite.php:391
+msgid "Yes"
+msgstr "Yes"
+
+#: print-flyers-lite.php:308 print-flyers-lite.php:313
+#: print-flyers-lite.php:318 print-flyers-lite.php:323
+#: print-flyers-lite.php:328 print-flyers-lite.php:344
+#: print-flyers-lite.php:370 print-flyers-lite.php:386
+#: print-flyers-lite.php:393
+msgid "Selected="
+msgstr "Selected="
+
+#: print-flyers-lite.php:309 print-flyers-lite.php:314
+#: print-flyers-lite.php:319 print-flyers-lite.php:324
+#: print-flyers-lite.php:329 print-flyers-lite.php:345
+#: print-flyers-lite.php:371 print-flyers-lite.php:387
+#: print-flyers-lite.php:394
+msgid "No"
+msgstr "No"
+
+#: print-flyers-lite.php:311
+msgid "Show description?"
+msgstr "Show description?"
+
+#: print-flyers-lite.php:316
+msgid "Show price?"
+msgstr "Show price?"
+
+#: print-flyers-lite.php:321
+msgid "Show SKU?"
+msgstr "Show SKU?"
+
+#: print-flyers-lite.php:326
+msgid "Show attributes?"
+msgstr "Show attributes?"
+
+#: print-flyers-lite.php:339
+msgid "Featured image"
+msgstr "Featured image"
+
+#: print-flyers-lite.php:342
+msgid "Show featured image?"
+msgstr "Show featured image?"
+
+#: print-flyers-lite.php:348 print-flyers-lite.php:352
+msgid "Position"
+msgstr "Position"
+
+#: print-flyers-lite.php:348
+msgid "Text will wrap around image if you select Left or Right"
+msgstr "Text will wrap around image if you select Left or Right"
+
+#: print-flyers-lite.php:363
+msgid "Width"
+msgstr "Width"
+
+#: print-flyers-lite.php:363
+#, php-format
+msgid "Example: 50% or 20px. Height will scale accordingly"
+msgstr "Example: 50% or 20px. Height will scale accordingly"
+
+#: print-flyers-lite.php:364 print-flyers-lite.php:365
+#: print-flyers-lite.php:366 print-flyers-lite.php:367
+#, php-format
+msgid "Example: 3% or 5px"
+msgstr "Example: 3% or 5px"
+
+#: print-flyers-lite.php:368
+msgid "Show border?"
+msgstr "Show border?"
+
+#: print-flyers-lite.php:368
+msgid "Adds a thin gray frame around image"
+msgstr "Adds a thin gray frame around image"
+
+#: print-flyers-lite.php:381
+msgid "Gallery"
+msgstr "Gallery"
+
+#: print-flyers-lite.php:384
+msgid "Show gallery?"
+msgstr "Show gallery?"
+
+#: print-flyers-lite.php:389
+msgid "Gallery Image Width"
+msgstr "Gallery Image Width"
+
+#: print-flyers-lite.php:389
+#, php-format
+msgid "Example: 15% or 100px. The height will scale in proportion"
+msgstr "Example: 15% or 100px. The height will scale in proportion"
+
+#: print-flyers-lite.php:391
+msgid "Show borders?"
+msgstr "Show borders?"
+
+#: print-flyers-lite.php:391
+msgid "Adds a thin gray frame around each image"
+msgstr "Adds a thin gray frame around each image"
+
+#: print-flyers-lite.php:403
+msgid "Printer font"
+msgstr "Printer font"
+
+#: print-flyers-lite.php:407
+msgid "Font Size"
+msgstr "Font Size"
+
+#: print-flyers-lite.php:409
+msgid "Font Family"
+msgstr "Font Family"
+
+#: print-flyers-lite.php:411
+msgid "font family"
+msgstr "font family"
+
+#: print-flyers-lite.php:413
+msgid "selected"
+msgstr "selected"
+
+#. Plugin URI of the plugin/theme
+msgid "https://print-flyers.com"
+msgstr "https://print-flyers.com"
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce extension to create printer-friendly product pages with tailored "
+"headers and footers."
+msgstr "WooCommerce extension to create printer-friendly product pages."
+
+#. Author of the plugin/theme
+msgid "Togethernet"
+msgstr "Togethernet"
+
+#. Author URI of the plugin/theme
+msgid "https://togethernet.co.uk"
+msgstr "https://togethernet.co.uk"
